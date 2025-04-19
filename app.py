@@ -18,11 +18,11 @@ PRODUCT_INFO = {
 # Complete distance matrix (bidirectional)
 DISTANCES = {
     ('C1', 'L1'): 3, ('L1', 'C1'): 3,
-    ('C2', 'L1'): 4, ('L1', 'C2'): 4,
+    ('C2', 'L1'): 2.5, ('L1', 'C2'): 2.5,
     ('C3', 'L1'): 2, ('L1', 'C3'): 2,
-    ('C1', 'C2'): 2.5, ('C2', 'C1'): 2.5,
-    ('C1', 'C3'): 3, ('C3', 'C1'): 3,
-    ('C2', 'C3'): 2, ('C3', 'C2'): 2,
+    ('C1', 'C2'): 4, ('C2', 'C1'): 4,
+    ('C1', 'C3'): 5, ('C3', 'C1'): 5,
+    ('C2', 'C3'): 3, ('C3', 'C2'): 3,
 }
 
 def calculate_cost(weight, distance):
